@@ -4,39 +4,46 @@
 }
 
 body {
-  width: 750px;
+  width: 100%;
   margin: 0 auto;
 }
 
-.header {
-  width: 100%;
-  background: #0b1523;
+header {
+  background: #181f2a;
+  width: 750px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  height: 70px;
+  justify-content: space-around;
 }
-.header .header__logo {
-  width: 160px;
+header .header__logo {
   height: 50px;
+  width: 120px;
   padding: 10px;
 }
-.header .links {
-  color: white;
-  display: flex;
+header .links {
   list-style: none;
-  justify-content: flex-end;
+  margin: 1em;
+  text-align: right;
 }
-.header .links .link a {
+header .links .link {
+  display: inline;
+}
+header .links .link .link--content {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  display: inline;
+  padding: 0.5em;
 }
 
 #wrapper {
   width: 750px;
   background: #181f2a;
+  margin: 0 auto;
+}
+#wrapper .container {
+  width: 370px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
