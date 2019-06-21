@@ -60,7 +60,7 @@ header{
         width: 370px;
         margin: $mcenter;
         padding: 20px 0 30px 0;
-
+        
         .content{
            @include textWhite;
 
@@ -137,13 +137,16 @@ header{
             width: 40px;
         }
         .testimonial{
+            max-width: 330px;
             color: white;
             margin-bottom: 40px;
-            padding: 25px;
             background: $dark4;
             border-radius: 5px;
+            flex-wrap: wrap;
+            padding: 20px;
             .testimonial-text{
                 @include fontSize;
+                padding: 10px 0 10px 10px;
             }
             .testimonial__profile{
                 padding-top: 25px;
@@ -157,4 +160,20 @@ header{
             }
         }
     }
+
+    .form{
+       @include mobileFlex;
+        background: $dark4;
+        color: white;
+        text-align: center;
+        .form__text{
+            @include fontSize;
+            margin: 25px;
+    }
+
+
+    .btn{
+        @include btn;
+    }
+}
 }
