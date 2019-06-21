@@ -132,14 +132,17 @@ header .links .link .link--content {
   width: 40px;
 }
 #wrapper .testimonials .testimonial {
-  width: 370px;
+  max-width: 330px;
   color: white;
   margin-bottom: 40px;
   background: #202a3c;
   border-radius: 5px;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 #wrapper .testimonials .testimonial .testimonial-text {
   font-size: 14px;
+  padding: 10px 0 10px 10px;
 }
 #wrapper .testimonials .testimonial .testimonial__profile {
   padding-top: 25px;

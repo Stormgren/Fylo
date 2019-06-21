@@ -137,14 +137,16 @@ header{
             width: 40px;
         }
         .testimonial{
-            width: 370px;
+            max-width: 330px;
             color: white;
             margin-bottom: 40px;
-            // padding: 25px 0 25px 25px;
             background: $dark4;
             border-radius: 5px;
+            flex-wrap: wrap;
+            padding: 20px;
             .testimonial-text{
                 @include fontSize;
+                padding: 10px 0 10px 10px;
             }
             .testimonial__profile{
                 padding-top: 25px;
