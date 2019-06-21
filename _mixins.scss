@@ -1,1 +1,18 @@
 @import 'variables';
+
+@mixin textWhite{
+    text-align: center;
+    color: white;
+}
+
+@mixin fontSize{
+    font-size: 14px;
+}
+
+@mixin btn{
+    background: linear-gradient(to left, $blue, $cyan);
+    padding: 12px 80px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
