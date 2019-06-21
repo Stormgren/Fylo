@@ -31,7 +31,6 @@ header{
     .links{
         padding: 15px;
         list-style: none;
-        // margin: 3px;
 	    text-align: right;
 
         .link{
@@ -80,11 +79,7 @@ header{
     }
 
     .services{
-        display: flex;
-        flex-direction: column;
-        width: 370px;
-        margin: $mcenter;
-        padding: 75px 0;
+        @include mobileFlex;
 
         .service{
             text-align: center;
@@ -104,5 +99,37 @@ header{
                @include fontSize;
             }
         }
+    }
+
+    .productive{
+       @include mobileFlex;
+        color: white;
+        text-align: left;
+        
+        .productive__title{
+            font-size: 1.2rem;
+            padding: 60px 0 25px 0;
+        }
+        .productive__text{
+            width: 370px;
+            @include fontSize;
+            padding: 20px 0;
+        }
+
+        .productive__link{
+            color: $cyan;
+            text-decoration: none;
+            border-bottom: 1px solid $cyan;
+            width: 50%;
+            padding-top: 20px;
+            .arrow__img{
+                width: 20px;
+                vertical-align: middle;
+                margin-left: 5px;
+            }
+        }
+
+       
+        
     }
 }
