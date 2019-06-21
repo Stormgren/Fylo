@@ -128,8 +128,33 @@ header{
                 margin-left: 5px;
             }
         }
+    }
 
-       
+    .testimonials{
+        @include mobileFlex;
         
+        .quotes{
+            width: 40px;
+        }
+        .testimonial{
+            color: white;
+            margin-bottom: 40px;
+            padding: 25px;
+            background: $dark4;
+            border-radius: 5px;
+            .testimonial-text{
+                @include fontSize;
+            }
+            .testimonial__profile{
+                padding-top: 25px;
+                display: inline-flex;
+                .profile__img{
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 }
