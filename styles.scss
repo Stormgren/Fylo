@@ -1,2 +1,45 @@
 @import 'variables';
 @import 'mixins';
+
+*{
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    width: 750px;
+    margin: $mcenter;
+}
+
+.header{
+    width: 100%;
+    background: $dark3;
+    margin: $mcenter;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+
+    .header__logo{
+        width: 160px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .links{
+        color: white;
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        .link a{
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+        }
+    }
+}
+
+#wrapper{
+    width: 750px;
+    background: $dark;
+}
