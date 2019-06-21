@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 @import 'variables';
 @import 'mixins';
 
@@ -9,6 +11,7 @@
 body{
     width: 100%;
     margin: $mcenter;
+    font-family: 'Raleway';
 }
 
 header{
@@ -39,7 +42,8 @@ header{
                 text-decoration: none;
                 color: white;
                 display: inline;
-	padding: .5em;
+    padding: .5em;
+    @include fontSize;
             }
         }
     }
@@ -66,14 +70,11 @@ header{
            } 
            .content__text{
                padding: 10px 0 30px 0;
+               @include fontSize;
            }
 
            .btn{
-               background: $cyan;
-               padding: 12px 80px;
-               border-radius: 30px;
-               color: white;
-               text-decoration: none;
+               @include btn;
            }
         }
     }
