@@ -121,5 +121,35 @@ header .links .link .link--content {
   vertical-align: middle;
   margin-left: 5px;
 }
+#wrapper .testimonials {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+#wrapper .testimonials .quotes {
+  width: 40px;
+}
+#wrapper .testimonials .testimonial {
+  color: white;
+  margin-bottom: 40px;
+  padding: 25px;
+  background: #202a3c;
+  border-radius: 5px;
+}
+#wrapper .testimonials .testimonial .testimonial-text {
+  font-size: 14px;
+}
+#wrapper .testimonials .testimonial .testimonial__profile {
+  padding-top: 25px;
+  display: inline-flex;
+}
+#wrapper .testimonials .testimonial .testimonial__profile .profile__img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
