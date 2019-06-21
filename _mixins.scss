@@ -16,3 +16,11 @@
     color: white;
     text-decoration: none;
 }
+
+@mixin mobileFlex{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: $mcenter;
+    padding: 75px 0;
+}
