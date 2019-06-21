@@ -157,4 +157,20 @@ header{
             }
         }
     }
+
+    .form{
+       @include mobileFlex;
+        background: $dark4;
+        color: white;
+        text-align: center;
+        .form__text{
+            @include fontSize;
+            margin: 25px;
+    }
+
+
+    .btn{
+        @include btn;
+    }
+}
 }
