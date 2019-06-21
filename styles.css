@@ -67,5 +67,29 @@ header .links .link .link--content {
   color: white;
   text-decoration: none;
 }
+#wrapper .services {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+#wrapper .services .service {
+  text-align: center;
+  color: white;
+  padding: 10px 0 50px 0;
+}
+#wrapper .services .service img {
+  width: 70px;
+  height: auto;
+  padding: 10px;
+}
+#wrapper .services .service .service__title {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+#wrapper .services .service .service__text {
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=styles.css.map */
