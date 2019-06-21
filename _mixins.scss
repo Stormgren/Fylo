@@ -1,1 +1,6 @@
 @import 'variables';
+
+@mixin textWhite{
+    text-align: center;
+    color: white;
+}
