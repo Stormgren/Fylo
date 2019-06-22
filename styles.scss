@@ -213,10 +213,21 @@ header{
     }
 
     .footer__item{
-        text-align: center;
-        display: inline-flex;
-        // align-items: flex-start;
+        // text-align: center;
+        width: 350px;
+        margin: $mcenter;
+        .footer__icon--text{
+            display: block;
+            width:345px;
+            margin: $mcenter;
+        }
     }
+
+        .footer__icon-text{
+            @include fontSize;
+            // font-weight: unset;
+        }
 
 
 }
+

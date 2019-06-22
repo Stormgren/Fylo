@@ -172,7 +172,13 @@ header {
     width: 180px;
     height: 60px; }
   .footer .footer__item {
-    text-align: center;
-    display: inline-flex; }
+    width: 350px;
+    margin: 0 auto; }
+    .footer .footer__item .footer__icon--text {
+      display: block;
+      width: 345px;
+      margin: 0 auto; }
+  .footer .footer__icon-text {
+    font-size: 14px; }
 
 /*# sourceMappingURL=styles.css.map */
