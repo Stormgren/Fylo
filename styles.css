@@ -36,6 +36,8 @@ header {
     width: 370px;
     margin: 0 auto;
     padding: 20px 0 30px 0; }
+    #wrapper .container .container__img {
+      width: 370px; }
     #wrapper .container .content {
       text-align: center;
       color: white; }
@@ -166,7 +168,8 @@ header {
   color: white; }
   .footer .footer__img {
     width: 180px;
-    height: 60px; }
+    height: 60px;
+    padding: 10px 0; }
   .footer .footer__item {
     width: 350px;
     margin: 0 auto;

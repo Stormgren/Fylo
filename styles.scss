@@ -60,7 +60,9 @@ header{
         width: 370px;
         margin: $mcenter;
         padding: 20px 0 30px 0;
-        
+        .container__img{
+            width: 370px;
+        }
         .content{
            @include textWhite;
 
@@ -210,6 +212,7 @@ header{
     .footer__img{
         width: 180px;
         height: 60px;
+        padding: 10px 0;
     }
 
     .footer__item{
