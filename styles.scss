@@ -252,7 +252,6 @@ header{
     
 }
 .contact__icons{
-    // margin: $mcenter;
     width: 350px;
    justify-content: center;
    padding-bottom: 30px;
@@ -270,7 +269,7 @@ header{
 }
 }
 
-@media(min-width: 751px){
+@media ( min-width: 751px){
     .header{
 	align-items: none;
     justify-content: space-between;
@@ -338,7 +337,6 @@ header{
     .quotes{
         margin-left: -180px;
         margin-bottom: -10px;
-        // z-index: -1;
     }
     .row{
     width: 750px;
@@ -355,21 +353,21 @@ header{
 }
 }
 
-.form{
-    width: 750px;
-    .btn{
-        padding: 10px 30px;
-    }
-    .email__input{
-        min-width: 450px;
-        margin: 0 15px 0 30px;
-    }
-    .wrapp{
-      width: 730px;
+ .form{
+     width: 750px;
+     .btn{
+         width: 370px;
+         margin: $mcenter;
+      }
+      .email__input{
+    
+        width: 370px;
+        margin: 15px auto;
+     }
+   
   
-    }
-}
-}
+     }
+
 .footer__links{
     display:inline-flex;
     width: 750px;
@@ -377,5 +375,6 @@ header{
         width: 300px;
         margin: $mcenter;
     }
+}
 }
 }

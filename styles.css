@@ -319,21 +319,18 @@ header .links .link .link--content {
     width: 750px;
   }
   #wrapper .form .btn {
-    padding: 10px 30px;
+    width: 370px;
+    margin: 0 auto;
   }
   #wrapper .form .email__input {
-    min-width: 450px;
-    margin: 0 15px 0 30px;
+    width: 370px;
+    margin: 15px auto;
   }
-  #wrapper .form .wrapp {
-    width: 730px;
-  }
-
-  .footer__links {
+  #wrapper .footer__links {
     display: inline-flex;
     width: 750px;
   }
-  .footer__links .footer__links--group {
+  #wrapper .footer__links .footer__links--group {
     width: 300px;
     margin: 0 auto;
   }
