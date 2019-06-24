@@ -300,6 +300,26 @@ header .links .link .link--content {
   #wrapper .productive .test {
     width: 310px;
   }
+  #wrapper .testimonials .quotes {
+    margin-left: -180px;
+    margin-bottom: -10px;
+  }
+  #wrapper .testimonials .row {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -180px;
+  }
+  #wrapper .testimonials .row .testimonial {
+    width: 250px;
+    margin-right: 10px;
+  }
+  #wrapper .form {
+    width: 750px;
+  }
+  #wrapper .form .email__input {
+    width: 730px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

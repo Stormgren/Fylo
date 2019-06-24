@@ -348,5 +348,33 @@ header{
 
 
 }
+
+.testimonials{
+    .quotes{
+        margin-left: -180px;
+        margin-bottom: -10px;
+        // z-index: -1;
+    }
+    .row{
+    width: 750px;
+    display:flex;
+    flex-direction: row;
+    margin-left: -180px; 
+       
+    .testimonial{
+        width: 250px;
+        margin-right: 10px;
+
+    }
+
+}
+}
+
+.form{
+    width: 750px;
+    .email__input{
+        width: 730px;
+    }
+}
 }
 }
