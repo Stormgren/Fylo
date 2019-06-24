@@ -372,8 +372,16 @@ header{
 
 .form{
     width: 750px;
+    .btn{
+        padding: 10px 30px;
+    }
     .email__input{
-        width: 730px;
+        min-width: 450px;
+        margin: 0 15px 0 30px;
+    }
+    .wrapp{
+      width: 730px;
+  
     }
 }
 }

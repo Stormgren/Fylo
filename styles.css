@@ -317,7 +317,14 @@ header .links .link .link--content {
   #wrapper .form {
     width: 750px;
   }
+  #wrapper .form .btn {
+    padding: 10px 30px;
+  }
   #wrapper .form .email__input {
+    min-width: 450px;
+    margin: 0 15px 0 30px;
+  }
+  #wrapper .form .wrapp {
     width: 730px;
   }
 }
