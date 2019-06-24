@@ -275,7 +275,7 @@ header{
 	align-items: none;
     justify-content: space-between;
     }
-    
+    #wrapper{
     .container{
         display: inline;
          margin: $mcenter;
@@ -293,24 +293,6 @@ header{
         margin: $mcenter;
     }
 
-    // .row{
-    //    display: flex;
-    //    width: 740px;
-    //       margin-left: -160px;
-    // align-content: center;
-    // vertical-align: middle;
-
-
-    //    .service{
-    //        width: 320px;
-    //        margin-right: 50px;
-          
-
-    //        .service__text{
-    //            text-align: left;
-    //        }
-    //    }
-    // }
    .services{
        min-width: 750px;
        display: table;
@@ -332,4 +314,39 @@ header{
        }
     }
    }
+
+//    .productive{
+       
+//        display: inline;
+//        width: 750px;
+//        position: relative;
+//     //    vertical-align: middle;
+//     img{
+//         float: left;
+//     } 
+
+//     .test{
+//         float: right;
+//     }
+   
+//  }
+.productive{
+       
+    display: flex;
+    width: 750px;
+    flex-direction: row;
+    
+.illustration{
+    width: 350px;
+    padding-right: 40px;
+    padding-top: 60px;
+ } 
+
+ .test{
+   width: 310px;
+ }
+
+
+}
+}
 }

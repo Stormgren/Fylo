@@ -257,37 +257,48 @@ header .links .link .link--content {
     justify-content: space-between;
   }
 
-  .container {
+  #wrapper .container {
     display: inline;
     margin: 0 auto;
   }
-  .container .content {
+  #wrapper .container .content {
     width: 720px;
     margin: 0 auto;
   }
-
-  .container__img {
+  #wrapper .container__img {
     display: flex;
     margin: 0 auto;
   }
-
-  .services {
+  #wrapper .services {
     min-width: 750px;
     display: table;
     list-style: none;
     padding-top: 20px;
   }
-  .services li {
+  #wrapper .services li {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
     list-style: none;
   }
-  .services li .service {
+  #wrapper .services li .service {
     width: 300px;
   }
-  .services li .service__container {
+  #wrapper .services li .service__container {
     text-align: left;
+  }
+  #wrapper .productive {
+    display: flex;
+    width: 750px;
+    flex-direction: row;
+  }
+  #wrapper .productive .illustration {
+    width: 350px;
+    padding-right: 40px;
+    padding-top: 60px;
+  }
+  #wrapper .productive .test {
+    width: 310px;
   }
 }
 
