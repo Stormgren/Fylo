@@ -24,3 +24,10 @@
     margin: $mcenter;
     padding: 75px 0;
 }
+
+@mixin largeFlex{
+    display: flex;
+    flex-direction: row;
+    width: 720px;
+    
+}
