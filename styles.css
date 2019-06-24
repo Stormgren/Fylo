@@ -326,11 +326,13 @@ header .links .link .link--content {
     width: 370px;
     margin: 15px auto;
   }
-  #wrapper .footer__links {
-    display: inline-flex;
+
+  .footer__links {
+    display: flex;
+    flex-direction: row;
     width: 750px;
   }
-  #wrapper .footer__links .footer__links--group {
+  .footer__links .footer__links--group {
     width: 300px;
     margin: 0 auto;
   }
