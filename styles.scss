@@ -9,14 +9,16 @@
 // }
 
 body{
-    width: 100%;
+    // width: 100%;
+    max-width: 750px;
+
     margin: $mcenter;
     font-family: 'Raleway';
 }
 
 header{
     background: $dark;
-    width: 750px;
+    max-width: 750px;
     margin: $mcenter;
     display: flex;
 	align-items: center;
@@ -52,7 +54,7 @@ header{
 
 
 #wrapper{
-    width: 750px;
+    max-width: 750px;
     background: $dark;
     margin: $mcenter;
 
@@ -169,7 +171,7 @@ header{
         color: white;
         border-radius: 5px;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 20px 15px;
         margin-bottom: -80px;
         z-index: 999 !important;
         position: relative;
@@ -184,7 +186,7 @@ header{
             text-align: center;
     }   
         .email__input{
-            width: 350px;
+            max-width: 350px;
             border-radius: 30px;
             color: white;
             padding: 12px 0 12px 15px;
@@ -204,7 +206,7 @@ header{
 }
 .footer{
     background: $dark3;
-    width: 750px;
+    max-width: 750px;
     margin: $mcenter;
     display: flex;
     // align-items: center;
