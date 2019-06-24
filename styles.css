@@ -200,6 +200,7 @@ header .links .link .link--content {
   max-width: 100%;
   margin: 0 auto;
   display: flex;
+  align-items: center;
   flex-direction: column;
   color: white;
   padding-top: 120px;
@@ -212,7 +213,7 @@ header .links .link .link--content {
 .footer .footer__item {
   width: 350px;
   margin: 0 auto;
-  display: inline-flex;
+  display: flex;
 }
 .footer .footer__item .fas {
   margin-right: 10px;
@@ -328,29 +329,13 @@ header .links .link .link--content {
     width: 730px;
   }
 
-  .footer {
-    color: white;
-    padding-top: 120px;
+  .footer__links {
+    display: inline-flex;
+    width: 750px;
   }
-  .footer img {
-    margin-left: -160%;
-  }
-  .footer .items {
-    flex-direction: row;
-  }
-  .footer .group {
-    display: block;
-    margin-left: 20px;
-  }
-  .footer .fas {
-    padding-right: 10px;
-  }
-  .footer .footer__links {
-    display: flex;
-    flex-direction: row;
-  }
-  .footer .footer__links .footer__links--group {
-    margin-right: 50px;
+  .footer__links .footer__links--group {
+    width: 300px;
+    margin: 0 auto;
   }
 }
 
