@@ -327,6 +327,31 @@ header .links .link .link--content {
   #wrapper .form .wrapp {
     width: 730px;
   }
+
+  .footer {
+    color: white;
+    padding-top: 120px;
+  }
+  .footer img {
+    margin-left: -160%;
+  }
+  .footer .items {
+    flex-direction: row;
+  }
+  .footer .group {
+    display: block;
+    margin-left: 20px;
+  }
+  .footer .fas {
+    padding-right: 10px;
+  }
+  .footer .footer__links {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .footer__links .footer__links--group {
+    margin-right: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
